@@ -7,11 +7,14 @@ void Led(DigitalOut &ledpin);
 
 int main()
 {
-   myLED = 1;
-   myLED2 = 1;
+   myLED = 0;
+   myLED2 = 0;
    while (true)
    {
-      Led(myLED);
       Led(myLED2);
+      Led(myLED2);
+      Led(myLED2);
+      Led(myLED);
+      Led(myLED);
    }
 }
